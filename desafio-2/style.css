@@ -34,20 +34,25 @@ body{
 
 header{
     font-weight: bold;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
     background-image:linear-gradient(to top, #025940 50%, #026873 );
     text-align: center;
     color: white;
-    
+    min-width: 150px;
 }
 header h1{
     text-shadow: 2px 2px 0px black;
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 header p{
     text-align: center;
+    font-size: 1.2em;
+    margin: auto;
+    max-width: 600px;
+    
 }
 main{
     background-color: white;
