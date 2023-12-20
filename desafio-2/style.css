@@ -35,7 +35,8 @@ body{
 header{
     font-weight: bold;
     width: 100%;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
     background-image:linear-gradient(to top, #025940 50%, #026873 );
     text-align: center;
