@@ -52,7 +52,7 @@ header p{
     font-size: 1.2em;
     margin: auto;
     max-width: 600px;
-
+    
 }
 main{
     background-color: white;
@@ -111,7 +111,7 @@ nav#principal{
 nav{
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.397);
     background-color: #036e50;
-    width: 27%;
+    width: 500px;
     height: 20px;
     margin: auto;
     padding: 10px;
