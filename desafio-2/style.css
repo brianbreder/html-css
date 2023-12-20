@@ -43,7 +43,7 @@ header h1{
     text-shadow: 2px 2px 0px black;
 }
 header p{
-    text-align: center;
+    margin: auto;
 }
 main{
     background-color: white;
