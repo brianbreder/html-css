@@ -8,9 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-* {
-   
-    }
 :root{
     --cor0:#ffffff;
     --cor1:#04BF8A;
@@ -25,7 +22,6 @@
     padding: opx;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow: ;
     max-width: 100%;
 }
 body{
@@ -175,7 +171,8 @@ footer{
     
     width: 100%;
     margin: 0px;
-    padding: 10px 0.1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
 }
 footer > span{
