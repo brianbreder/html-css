@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrie em varios tamos e descubra a mágia</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+        <img src="img/img-g.png" alt="imagem flexicivel">
+        
+    </picture>
+    <h1>Agora vamos começar a introduzir áudios nos nossos sites</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <h2>Contemplem o Mago-BRIAN</h2>
+    <audio src="audio/Contemplem o Mago.wav" preload="metadata" autoplay controls loop>
+     <source src="audio/Contemplem o Mago.wav" type="audio/wav">
+
+    </audio>
+    <br><h2>MadMal - Pump Up The Jam</h2><audio preload="metadata" autoplay controls loop>
+        <source src="audio/MadMal - Pump Up The Jam (Original Mix).wav" type="audio/wav">
+        
+    </audio>
+    <br><h2>Mantrimal-BRIAN</h2><audio preload="metadata" autoplay controls loop>
+        <source src="audio/mantrimal.wav" type="audio/wav">
+    </audio>
+    <p>Caso queira baixar alguma dessas músicas <a href="pag002.html">clique aqui</a> e siga para a proxima página</p>
+
+</body>
+</html>
