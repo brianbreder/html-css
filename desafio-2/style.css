@@ -8,6 +8,9 @@
     font-weight: normal;
     font-style: normal;
 }
+* {
+   
+    }
 :root{
     --cor0:#ffffff;
     --cor1:#04BF8A;
@@ -22,18 +25,22 @@
     padding: opx;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: ;
+    max-width: 100%;
 }
 body{
     background-color:var(--cor1) ;
     font-family: var(--fonte-padrao);
     margin: 0px;
+    padding: auto;
+    width: 100%;
 }
 
 header{
     font-weight: bold;
     width: 100%;
-    padding: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.712);
+    padding: 20px 0px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
     background-image:linear-gradient(to top, #025940 50%, #026873 );
     text-align: center;
     color: white;
@@ -165,9 +172,10 @@ aside h3{
 footer{
     background-color: #024059;
     color: #04BF8A;
-    padding:10px 10px;
-    width: auto;
+    
+    width: 100%;
     margin: 0px;
+    padding: 10px 0px;
     text-align: center;
 }
 footer > span{
