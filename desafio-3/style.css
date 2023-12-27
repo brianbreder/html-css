@@ -47,42 +47,55 @@ section{
     padding-bottom:15vh;
     line-height: 2em;
     padding-left: 50px;
+    
+}
+section.imagem{
+    background-color: rgb(36, 33, 33);
+}
+section p{
+    padding-bottom: 2em;
+    text-align:right;
+    padding: 20px;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url(img/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+section#img02{
+    background-image: url(img/background002.jpg);
+    
+}
+.imagem p{
+background-color: rgba(0, 0, 0, 0.418);
+display: inline-block;
+font-size: 3.5vw;
+font-weight: bold;
+font-family: var(--font2);
+padding: 5px;
+
+}
+.imagem{
+background-color: rgb(27, 26, 26);
+color: rgb(255, 255, 255);
+padding-top: 25vh;
+padding-bottom:25vh ;
+background-attachment:fixed;
+box-shadow:inset 6px 6px 13px 0px rgb(0, 0, 0) ;
 }
 .normal{
-background-color: rgb(255, 255, 255);
+background-color: rgb(104, 103, 103);
 color: black;
 font-family: var(--font3);
-font-size: 3.5vw;
+font-size: 3.3vw;
 font-weight: bold;
 }
 .normal#pc{
     background: black, url(img/pexels-canvy-mockups-205316.jpg), center center, no-repeat, fixed
 }
-.imagem1 p{
-background-color: black;
-display: inline-block;
-font-size: 3.5vw;
-font-weight: bold;
-font-family: var(--font2);
-padding: 5px;
-}
-.imagem1{
-background-color: rgb(27, 26, 26);
-color: rgb(255, 255, 255);
 
-}
-.imagem2{
-    background-color: rgb(27, 26, 26);
-    color: white;
-}
-.imagem2 p{
-background-color: black;
-display: inline-block;
-font-size: 1.5em;
-font-weight: bold;
-font-family: var(--font2);
-padding: 5px;
-}
+
 footer{
     background-color: black;
     color: white;
