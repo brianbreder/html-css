@@ -43,8 +43,8 @@ header a:hover, footer a:hover{
  text-decoration: underline;
 }
 section{
-    padding-top: 15vh;
-    padding-bottom:15vh;
+    padding-top: 10vh;
+    padding-bottom:5vh;
     line-height: 2em;
     
     
@@ -55,8 +55,29 @@ section.imagem{
 section p{
     padding-bottom: 2em;
     text-align:right;
-    padding: 20px;
     text-shadow: 1px 1px 0px black;
+}
+.normal#pc{
+    font-size: 1.5vw;
+    text-align: center;
+}
+section#pc{
+    background-image: url(img/pexels-canvy-mockups-205316.jpg);
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-size: 100% 100%;
+    transform: translate(-50%, -50% );
+}
+#pc p{
+    width:100vw;
+    height:330px ;
+    text-align: center;
+    
 }
 section#img01{
     background-image: url(img/background001.jpg);
@@ -91,10 +112,7 @@ color: black;
 font-family: var(--font3);
 font-size: 3.3vw;
 font-weight: bold;
-padding-right: 100px;
-}
-.normal#pc{
-    background: black, url(img/pexels-canvy-mockups-205316.jpg), center center, no-repeat, fixed
+padding-right: 50px;
 }
 
 
@@ -102,4 +120,5 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
