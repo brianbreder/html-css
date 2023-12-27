@@ -46,7 +46,7 @@ section{
     padding-top: 15vh;
     padding-bottom:15vh;
     line-height: 2em;
-    padding-left: 50px;
+    
     
 }
 section.imagem{
@@ -83,6 +83,7 @@ padding-top: 25vh;
 padding-bottom:25vh ;
 background-attachment:fixed;
 box-shadow:inset 6px 6px 13px 0px rgb(0, 0, 0) ;
+padding-left: 100px;
 }
 .normal{
 background-color: rgb(104, 103, 103);
@@ -90,6 +91,7 @@ color: black;
 font-family: var(--font3);
 font-size: 3.3vw;
 font-weight: bold;
+padding-right: 100px;
 }
 .normal#pc{
     background: black, url(img/pexels-canvy-mockups-205316.jpg), center center, no-repeat, fixed
