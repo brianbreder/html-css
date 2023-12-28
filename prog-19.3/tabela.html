@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+        }
+        table{
+            width: 800px;
+            height: 400px;
+            border-collapse: collapse;
+        }
+        tr{
+            background-color: gray;
+            text-align: center;
+            
+        }
+        tr.sub{
+            background-color: rgba(77, 7, 7, 0.568);
+            vertical-align:bottom ;
+            text-align: right;
+        }
+        td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.after{
+            background-color: rgba(137, 43, 226, 0.308);
+            text-align: right;
+            vertical-align: top;
+        }
+        .numero{
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgba(185, 184, 184, 0.849);
+        }
+        #numero{
+            text-align: center;
+            vertical-align: middle;
+            background-color: rgba(185, 184, 184, 0.849);
+        }
+
+    </style>
+</head>
+<body>
+    <table><!--1ª linha-->
+        <tr>
+           <td>A1</td>
+           <td class="after">B1</td>
+           <td class="numero">171</td>
+           <td class="after">D1</td>
+
+        </tr>
+        <tr  class="sub">
+            <td class="numero">244</td>
+            <td class="after">B2</td>
+            <td>C2</td>
+            <td class="after">D2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td class="after">B3</td>
+            <td>C3</td>
+            <td class="after" id="numero">380</td>
+        </tr>
+        <tr class="sub">
+            <td>A4</td>
+            <td class="after">B4</td>
+            <td class="numero">420</td>
+            <td class="after">D4</td>
+        </tr>
+        <tr>
+            <td>A5</td>
+            <td class="after" id="numero">50</td>
+            <td>C5</td>
+        </tr>
+        <tr class="sub">
+            <td class="numero">670</td>
+        </tr>
+    </table>
+</body>
+</html>
