@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 200px;
+            border-collapse: collapse;
+            position: relative;
+            font-weight: bold;
+        }
+        caption{
+            padding: 10px;
+            font-size: 1.6em;
+            background-color: goldenrod;
+        }
+        thead tr th{
+            position: sticky;
+            
+        }
+        tbody tr:nth-child(2n){
+            background-color: rgba(30, 143, 255, 0.452);
+        }
+        td{
+            border: 1px solid black;
+            padding: 15px;
+        }
+        
+        th{
+            border: 1px solid black;
+            height: 50px;
+            background-color: rgba(172, 255, 47, 0.89);
+        }
+        #total{
+            background-color: rgba(172, 255, 47, 0.89);
+        }
+        tr{
+            border: 1px solid black;
+            height: 45px;
+            text-align: center;
+        }
+        .numero{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <H1>Uso de tabelas grandes</H1>
+    <table>
+        <caption>
+            Total de top DJS de cada país
+        </caption>
+        <thead>
+         <tr>
+            <th scope="col">Posição</th>
+            <th scope="col" style="width: 150px;">País</th>
+            <th scope="col" style="width: 50px;">N° TOP DJS</th>
+         </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1°</td>
+                <td>Holanda</td>
+                <td class="numero">13</td>
+            </tr>
+            <tr>
+                <td>2°</td>
+                <td>Itália</td>
+                <td class="numero">12</td>
+            </tr>
+            <tr>
+                <td>3°</td>
+                <td>Estados Unidos</td>
+                <td class="numero">11</td>
+            </tr>
+            <tr>
+                <td>4°</td>
+                <td>Suécia</td>
+                <td class="numero">10</td>
+            </tr>
+            <tr>
+                <td>5°</td>
+                <td>Inglaterra</td>
+                <td class="numero">9</td>
+            </tr>
+            <tr>
+                <td>6°</td>
+                <td>Bélgica</td>
+                <td class="numero">7</td>
+            </tr>
+            <tr>
+                <td>7°</td>
+                <td>Alemanha</td>
+                <td class="numero">6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th scope="row">Total TOP DJS</th>
+                <td class="numero" id="total">69</td>
+            </tr>
+        </tfoot>
+    </table>
+    <main>
+        <h1>Holanda</h1>
+        <p>
+            Considerado o verdadeiro centro da música eletrônica mundial, a quantidade de DJs e produtores que são advindos dos Países Baixos é surpreendente. Desde os comerciais até os undergrounds, grande parte da cena está marcada pela presença dos holandeses. Tiesto, Armin van Buuren, Hardwell, Martin Garrix, Joris Voorn, Nicky Romero, Don Diablo, W&W, Afrojack, Sunnery James & Ryan Marciano, para citar alguns.
+
+            Além disso, o país tem uma concentração de gravadoras impressionante. Só para dizer, as duas maiores da cena são de lá. Spinnin’ Records e Armada representam muito dos lançamentos no mundo, juntamente com Revealed de Hardwell e Protocol de Nicky Romero, e agora com a STMPD de Garrix, o país realmente domina.
+            
+            Além disso, a Holanda é casa do grande festival de Techno Awakenings e sua capital, Amsterdã, é anfitriã da maior conferência de música eletrônica do mundo, o Amsterdam Dance Event, conhecido como ADE.  
+        </p>
+        <h1>Inglaterra</h1>
+        <p>Berço da cultura Rave e Clubber, a Inglaterra presenciou nos anos 80 e 90 diversas festas ilegais, onde o movimento de contracultura se expressava com alto consumo de drogas ilícitas. País natal de grandes nomes da cena como Carl Cox e Fatboy Slim, que tem um peso enorme na história da construção da nossa cena.
+
+            Carl Cox foi um dos pioneiros da cena eletrônica inglesa e ganhou a residência no famoso e extinto Space Ibiza, onde construiu sua fama. Já Fatboy Slim é uma lenda viva da música eletrônica mundial e representa muito bem seu país. Seu show memorável na praia de Brighton reuniu na rua milhares de pessoas, provando que a contracultura tinha virado a cultura do país.
+            
+            Hoje em dia, diversos artistas são exportados de lá, como Camelphat, Solardo, Michael Bibi, além das forças das labels Defected, Axtone e Solid Grooves, para citar algumas.</p>
+            <h1>Alemanha</h1>
+            <p>Todo fã de música eletrônica sabe o peso que a Alemanha traz para cena eletrônica mundial. Berlim, a capital do país, tem uma cena underground muito florescente, com diversos clubes e escolas de DJs, somado ao público consumidor, que é grandíssimo. Lá na cidade também se encontram duas casas que são ícones da cena do Techno: Berghain e Watergate. A primeira envolve muito mistério, pela dificuldade de acesso criada pelos temidos “doorman”, que barram as pessoas sem critérios claros. A segunda acaba sendo a opção para os barrados, mas é sensacional. O país é origem de grandes nomes da cena, como Paul Kalkbrenner, Pan-pot, Frankey Sandrino, Chris Liebing, Monolink, Stephan Bodzin, para citar alguns. Além disso, na cidade de Mannheim acontece o famoso festival de Techno Time Warp, que traz todo esse inprint alemão para suas produções.</p>
+            <h1>Estados Unidos</h1>
+            <p>Os Estados Unidos tem uma cena eletrônica super desenvolvida e bem puxada para o comercial. Nela vemos Steve Aoki, Marshmellow, The Chainsmokers, Kaskade, Diplo, Skrillex, para citar alguns. Já do lado underground, temos Honey Dijon, Frankie Knuckles, Erick Morillo e Dennis Ferrer. O mercado de festivais é muito desenvolvido, e dominando grande parte dele há a Insomniac, que é responsável pelo Electric Daisy Carnival, tendo sua maior edição em Las Vegas todos os anos. Outros grandes festivais que acontecem por lá são o Electric Zoo Nova York e o Coachella, que não é totalmente eletrônica, mas sempre traz grande line-up todos os anos. Não podemos falar dos EUA sem citar a Miami Music Week e o Ultra Music Festival, que também dão início a temporada de festivais no mundo, acontecendo em março. A cidade de Miami borbulha de eventos, pool parties, label parties e eventos da cena, sendo um dos destinos mais queridos pelos fãs. Claro que não é só Miami que tem uma cena com clubes como a LIV, Story e Space, mas também Nova York com a Marquee e Brooklyn Mirage, e claro, a pulsante Las Vegas, com os diversos clubes de alto nível como Omnia, Zouk, Hakkasan e XS, para citar alguns.E claro, foi nos Estados Unidos que tivemos o nascimento do House, com as festas em galpões (warehouses), que aconteciam nos subúrbios de Detroit e Chicago. Por lá, a cena se desenvolveu muito e chegou aos ouvidos de todo o mundo.</p>
+            <h1>Suécia</h1>
+            <p>Nunca um país produziu tantos talentos de uma mesma cena. Dizem as más línguas que a água na Suécia é abençoada para DJs e produtores. Um dos grandes nomes da nossa história, Avicii, saiu de Stockholm e ganhou o mundo com seus hits. Outros donos de hits são os suecos Axwell, Sebastian Ingrosso e Steve Angello, que criaram o Swedish House Mafia, levando a música eletrônica a patamares nunca vistos. Seguindo-os, mas não menos importantes, Alesso, Galantis e Dimitri Vangelis & Wyman trazem o lado comercial. Já no underground temos dois pesos pesados suecos: Eric Prydz e Adam Beyer, que dispensam apresentações e são referências em suas linhas de som. Prydz ainda se destaca mais por produções audiovisuais absurdas.</p>
+                <h1>Bélgica</h1>
+                <p>A Bélgica ganhou bastante destaque na cena eletrônica nos últimos anos pelo sucesso absoluto do festival que acontece na pequena cidade de Boom, o Tomorrowland. Por lá, a população respira música eletrônica todos anos em julho, mostrando que o amor vai além do festival. Mas do lado underground, temos o Voltage Festival, que também é belga, e rola todo ano em Zwevegem, com uma programação que foca nos melhores DJs da cena Techno Underground da Europa. O país também é natal dos grandes artistas Dimitri Vegas & Like Mike, que já foram coroados os melhores DJs do mundo pela DJ Mag UK. Além deles, no lado comercial, temos Lost Frequencies, Yves V e Romeo Blanco, queridinhos do Tomorrowland. Mas do lado underground, também temos boas representações, como a musa Charlotte de Witte e Amelie Lens.</p>
+                <h1>Itália</h1>
+                <p>A Itália nunca foi exportadora de tantos talentos da cena, não como recentemente. Claro que não podemos deixar de citar Marco Carola e Benny Benassi, mas hoje em dia, o volume aumentou e muito. Com a criação da label Afterlife, os artistas de Techno melódico italianos ganharam uma visibilidade muito grande em todo o mundo. O duo Tale of Us cresceu e começou a dar suporte aos artistas de seu país. Vemos hoje Mathame e Agents of Time como exemplos, mas com outros como Joseph Capriati, Enrico Sangiuliano, Giorgia Angiulli, Giolia & Assia, entre outros. Já puxando algo mais comercial, temos um representante de peso, o trio MEDUZA, que recentemente ganhou os corações dos fãs com diversos hits. Além disso, a cidade de Turim é casa de um festival underground que vem ficando cada vez mais popular entre os fãs de Techno, o Futur Festival. Sempre no primeiro final de semana de Julho, todos os anos, o verão em Turim ganha um footprint technero. Outra label party que acontece em diversas cidades espalhadas pela Itália é a Elrow. O Tech-House espanhol ganhou os gostos dos fãs italianos.</p>
+    </main>
+</body>
+</html>
