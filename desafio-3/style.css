@@ -46,8 +46,7 @@ section{
     padding-top: 10vh;
     padding-bottom:5vh;
     line-height: 2em;
-    
-    
+        
 }
 section.imagem{
     background-color: rgb(36, 33, 33);
@@ -75,7 +74,7 @@ section#pc{
 }
 #pc p{
     width:100vw;
-    height:330px ;
+    height:290px ;
     text-align: center;
     
 }
@@ -83,6 +82,7 @@ section#img01{
     background-image: url(img/background001.jpg);
     background-position: center center;
     background-size: cover;
+    
 }
 section#img02{
     background-image: url(img/background002.jpg);
